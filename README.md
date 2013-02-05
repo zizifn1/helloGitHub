@@ -23,3 +23,6 @@ helloGitHub
 
     $ git clone git://github.com/gotgithub/helloworld.git
 My first GitHub project
+
+
+提交修改文件一个。到zizifn的hellogit上面。
