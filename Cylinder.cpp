@@ -31,7 +31,7 @@ void Cylinder::get_values(double& h, double& r)
 }
 double Cylinder::volume()
 {
-	// you may need using math.h M_PI instead of 3.14
+	// you may need using math.h M_PI instead of own define
 	return M_PI*radius*radius*height;
 }
 void Cylinder::scale(double s)
