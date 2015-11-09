@@ -1,1 +1,12 @@
-ÊµÑé±¾µØµÄÐÞ¸ÄÎÄ¼þ£¬ÉÏ´«µ½gitÉÏ¡£
+å®žéªŒæœ¬åœ°çš„ä¿®æ”¹æ–‡ä»¶ï¼Œä¸Šä¼ åˆ°gitä¸Šã€‚
+
+		 InputStream is = testtest.class.getResourceAsStream("");
+		SOAPFactory soap12 = OMAbstractFactory.getSOAP11Factory();
+		XMLStreamReader reader = new StAXOMBuilder(
+				"./src/test/java/test/NewFile.xml").getDocument()
+				.getXMLStreamReader();
+		org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder st = new StAXSOAPModelBuilder(
+				reader, soap12, "http://schemas.xmlsoap.org/soap/envelope/");
+		SOAPEnvelope soap = st.getSOAPEnvelope();
+		SOAPBody body=	soap.getBody();
+		SOAPHeader header=	soap.getHeader();
