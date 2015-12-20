@@ -3,6 +3,9 @@ public class CallUnitTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//http://new-restart.iteye.com/blog/1477969
+		//http://www.cnblogs.com/kuyijie/archive/2011/08/20/2146463.html
+		//http://unmi.cc/maven-generate-executable-jar/
 		
 		UnitTest unitTest=new UnitTest();
 		unitTest.mapTest();
